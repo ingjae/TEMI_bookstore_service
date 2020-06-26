@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button_adffs"
+        android:layout_width="895dp"
+        android:layout_height="50dp"
+        android:text="상 품 정 보"
+        android:textSize="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/button_sdfdsf"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:text="결 제 금 액"
+        android:textSize="20dp"
+        android:layout_marginStart="985dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#64FFDA"
+        android:text="이 전"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="895dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="215dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="@drawable/border"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:layout_marginStart="985dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView3sdfdsf"
+        android:layout_width="900dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="                카드를 태그 해주시면 결제가 완료됩니다."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3dsfdsf"
+        android:layout_width="1175dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:text=" "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="1100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:text="이 책을 구매하신 분들이 함께 구매하신 상품입니다"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5sdfdsf"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="710dp"
+        android:gravity="center"
+        android:text="창조경영을 위한 인적자원관리, 길을 묻다"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewsdfdsf"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="710dp"
+        android:gravity="center"
+        android:text="Introduction to Robotics"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewsdfdsfds"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="665dp"
+        android:layout_marginTop="710dp"
+        android:gravity="center"
+        android:text="숨"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewsdfdsfdsf"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="965dp"
+        android:layout_marginTop="710dp"
+        android:gravity="center"
+        android:text="닥터 도티의 삶을 바꾸는 마술가게"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/book_2"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="400dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/book_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="665dp"
+        android:layout_marginTop="400dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/book_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="965dp"
+        android:layout_marginTop="400dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/book_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

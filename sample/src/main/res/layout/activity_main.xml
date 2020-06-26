@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/etBookName"
+        android:layout_width="760dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/border"
+        android:ems="30"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearchBook"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1088dp"
+        android:layout_marginTop="172dp"
+        android:backgroundTint="#64FFDA"
+        android:text="검   색"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/temi_1" />
+
+
+    <TextView
+        android:id="@+id/btnfdfff"
+        android:layout_width="1150dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="276dp"
+        android:background="#D6D7D7"
+        android:text="  "
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/imageInfo1"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="648dp"
+        android:background="#D6D7D7"
+        android:text=" 1234 "
+        android:textSize="20dp"
+
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/imageInfo3"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="648dp"
+        android:background="#D6D7D7"
+        android:text=" 1234 "
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/imageInfo2"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="648dp"
+        android:background="#D6D7D7"
+        android:text=" 1234 "
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnfdfdsff"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="308dp"
+        android:text=" 요즘 이 책 "
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="270dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="308dp"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="270dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="308dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="270dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="308dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSpeak"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginStart="520dp"
+        android:layout_marginTop="4dp"
+        android:ems="30"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSaveLocation"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="30"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etGoTo"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="4dp"
+        android:ems="30"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
