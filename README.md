@@ -18,8 +18,10 @@ DATABASE    : 건호  김주연
 
 
 ## Test 
-
+- 유튜브 참고   
+https://www.youtube.com/watch?v=f_71a_G2Ilo
 ## Arduino
+- RFID sensor 
 
 ## Raspberry
 - ROS Serial Communication  
